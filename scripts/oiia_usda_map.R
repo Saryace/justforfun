@@ -52,3 +52,6 @@ oiia_fig_header <- fig("data/header_oiia.png", aspect.ratio = "free")
 final_oiia_map <- wrap_plots(oiia_fig_header , oiia_usa, ncol = 1)
 
 final_oiia_map
+
+ggsave("output/final_oiia_map.png")
+
